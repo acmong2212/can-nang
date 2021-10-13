@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pham Duc Thang</title>
+</head>
+<body>
+
+</body>
+<script>
+    let cannang = +prompt("Nhap can nang")
+    let chieucao = +prompt("Nhap chieu cao")
+    let bmi = cannang / (chieucao + chieucao)
+    alert("chi so bmi la: " + bmi)
+    if (bmi < 18) {
+        document.write("Underwight");
+    } else if (bmi < 25) {
+        document.write("Nomal")
+    } else if (bmi < 30) {
+        document.write("Overwight");
+    } else {
+        document.write("Obese")
+    }
+</script>
+</html>
